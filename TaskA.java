@@ -5,7 +5,7 @@
 public class TaskA {
     public static void main(String[] args){
         int[] test = {0, 2, 6, 4, 3, 3, 2, 0, 3, 6, 0, 7, 3}; 
-        System.out.println(numberCount(test, 3, 0));
+        System.out.println(numberCount(test, 4, 0));
     }
 
     public static int numberCount(int[] arr, int number, int index){
